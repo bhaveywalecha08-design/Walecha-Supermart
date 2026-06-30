@@ -1,0 +1,6 @@
+{
+  "name": "General Store",
+  "description": "A B2B wholesale marketplace connecting manufacturers, suppliers, and retailers with advanced product search, cart, checkout, and roles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
