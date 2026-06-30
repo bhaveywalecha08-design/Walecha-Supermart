@@ -415,7 +415,7 @@ export const AuthPage: React.FC = () => {
                           className="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-slate-800 text-sm focus:outline-none"
                         >
                           <option value="Supermarket">Supermarket</option>
-                          <option value="Grocery Store">Kirana / Grocery</option>
+                          <option value="Grocery Store">Grocery Store</option>
                           <option value="Restaurant">Restaurant / Hotel</option>
                           <option value="Distributor">Distributor / Wholesaler</option>
                           <option value="Manufacturer">Manufacturer</option>

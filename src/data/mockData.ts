@@ -26,7 +26,7 @@ export const MOCK_USERS: User[] = [
     name: 'Bhavey Walecha',
     email: 'bhaveywalecha08@gmail.com',
     role: 'retailer',
-    businessName: 'Walecha Supermarket & Kirana',
+    businessName: 'Walecha Supermarket',
     businessAddress: 'Sector 15, Block C-4, New Delhi, India',
     businessType: 'Supermarket',
     isVerified: true,
@@ -131,7 +131,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   {
     id: 'prod_2',
     title: 'Parle-G Gold Biscuits (Carton of 120 Packs)',
-    description: "Every Indian family's favorite milk-and-wheat biscuits. Packed with glucose energy and delicious crunch. Perfect for wholesale distribution to local tea shops and kiranas.",
+    description: "Every Indian family's favorite milk-and-wheat biscuits. Packed with glucose energy and delicious crunch. Perfect for wholesale distribution to local tea shops and grocery stores.",
     sku: 'PAR-GLD-CTN-02',
     barcode: '8901234567891',
     stock: 180,
@@ -302,7 +302,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   {
     id: 'prod_11',
     title: 'Parle Kismi Toffee Bar (Box of 400 pieces)',
-    description: 'Iconic traditional cardamom and caramel-flavored toffee bar. Highly popular checkout candy for kirana shops to return as loose change.',
+    description: 'Iconic traditional cardamom and caramel-flavored toffee bar. Highly popular checkout candy for grocery stores to return as loose change.',
     sku: 'PAR-KIS-TOFF-11',
     barcode: '8901234567900',
     stock: 70,
@@ -389,7 +389,7 @@ export const MOCK_REVIEWS: Review[] = [
   {
     id: 'rev_2',
     productId: 'prod_1',
-    userName: 'Anita Desai (Kirana Diaries)',
+    userName: 'Anita Desai (Grocery Diaries)',
     rating: 4,
     comment: 'Always high quality from Haldirams. Delivery was on time and the transit box protected the packets.',
     date: '2026-06-22',
@@ -410,7 +410,7 @@ export const INITIAL_ORDERS: Order[] = [
     date: '2026-06-25T11:30:00Z',
     retailerId: 'usr_retailer_1',
     retailerName: 'Bhavey Walecha',
-    retailerBusinessName: 'Walecha Supermarket & Kirana',
+    retailerBusinessName: 'Walecha Supermarket',
     items: [
       {
         productId: 'prod_1',
@@ -453,7 +453,7 @@ export const INITIAL_ORDERS: Order[] = [
     date: '2026-06-28T14:15:00Z',
     retailerId: 'usr_retailer_1',
     retailerName: 'Bhavey Walecha',
-    retailerBusinessName: 'Walecha Supermarket & Kirana',
+    retailerBusinessName: 'Walecha Supermarket',
     items: [
       {
         productId: 'prod_3',
